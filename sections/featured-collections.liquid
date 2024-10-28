@@ -42,37 +42,37 @@
   class="page-width textcolor-{{ section.settings.color_scheme }} isolate gradient twcss-mx-auto twcss-px-[5rem]"
 >
   <ul
-    class="twcss-grid twcss-grid-cols-3 twcss-gap-6 twcss-bg-red"
+    class="twcss-grid twcss-grid-cols-3 twcss-divide-x twcss-border twcss-border-black twcss-divide-black"
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
   >
-      <li class="twcss-items-end twcss-justify-between twcss-relative twcss-h-[315px] twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_27.png?v=1726212803')] twcss-flex">
-        <div class="twcss-w-full twcss-flex twcss-justify-between twcss-items-center twcss-p-3">
+      <li class="twcss-p-6">
+        <div class="twcss-w-full twcss-h-[315px] twcss-flex twcss-justify-between twcss-items-end twcss-p-3 twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_27.png?v=1726212803')]">
           <span class="twcss-font-[conthrax] twcss-text-6xl twcss-text-white">
             {{ section.settings.collections[0].title }}
           </span>
           <button class="twcss-py-2 twcss-px-4 twcss-no-underline twcss-rounded-full twcss-bg-white twcss-font-semibold twcss-text-sm twcss-focus:outline-none">
-            <a href="{{ section.settings.collection[0].url }}">Shop now </a>
+            <a href="{{ section.settings.collection[0].url }}">Shop now</a>
           </button>
         </div>
       </li>
-      <li class="twcss-items-end twcss-justify-between twcss-relative twcss-h-[315px] twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_28.png?v=1726212803')] twcss-flex">
-        <div class="twcss-w-full twcss-flex twcss-justify-between twcss-items-center twcss-p-3">
+      <li class="twcss-p-6">
+        <div class="twcss-w-full twcss-h-[315px] twcss-flex twcss-justify-between twcss-items-end twcss-p-3 twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_28.png?v=1726212803')]">
           <span class="twcss-font-[conthrax] twcss-text-6xl twcss-text-white">
             {{ section.settings.collections[1].title }}
           </span>
           <button class="twcss-py-2 twcss-px-4 twcss-no-underline twcss-rounded-full twcss-bg-white twcss-font-semibold twcss-text-sm twcss-focus:outline-none">
-            <a href="{{ section.settings.collection[1].url }}">Shop now </a>
+            <a href="{{ section.settings.collection[1].url }}">Shop now</a>
           </button>
         </div>
       </li>
-      <li class="twcss-items-end twcss-justify-between twcss-relative twcss-h-[315px] twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_29.png?v=1726212803')] twcss-flex">
-        <div class="twcss-w-full twcss-flex twcss-justify-between twcss-items-center twcss-p-3">
+      <li class="twcss-p-6">
+        <div class="twcss-w-full twcss-h-[315px] twcss-flex twcss-justify-between twcss-items-end twcss-p-3 twcss-bg-cover twcss-bg-no-repeat twcss-bg-[url('https://cdn.shopify.com/s/files/1/0707/1540/8597/files/Rectangle_29.png?v=1726212803')]">
           <span class="twcss-font-[conthrax] twcss-text-6xl twcss-text-white">
             {{ section.settings.collections[2].title }}
           </span>
           <button class="twcss-py-2 twcss-px-4 twcss-no-underline twcss-rounded-full twcss-bg-white twcss-font-semibold twcss-text-sm twcss-focus:outline-none">
-            <a href="{{ section.settings.collection[2].url }}">Shop now </a>
+            <a href="{{ section.settings.collection[2].url }}">Shop now</a>
           </button>
         </div>
       </li>
@@ -85,7 +85,10 @@
   "tag": "section",
   "class": "section",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
