@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --font-heading-family: conthrax
+  --font-heading-family: conthrax;
+  --font-body-family: inter;
 }
+

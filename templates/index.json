@@ -8,6 +8,14 @@
         ]
       }
     },
+    "new_arrivals": {
+      "type": "catalog",
+      "settings": {
+        "title": "Shop new arrivals",
+        "products_to_show": 8,
+        "collection": "new-arrivals"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -145,6 +153,7 @@
   },
   "order": [
     "featured_collections",
+    "new_arrivals",
     "featured_collection",
     "collage",
     "video",

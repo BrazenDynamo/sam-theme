@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         heading: 'var(--font-heading-family)',
+        display: 'conthrax',
       },
     },
   },
