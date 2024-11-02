@@ -1103,8 +1103,11 @@
             "label": "Middle center"
           }
         },
-        "menu": {
-          "label": "Menu"
+        "top-left-menu": {
+          "label": "Top-left links"
+        },
+        "top-right-menu": {
+          "label": "Top-right links"
         },
         "menu_type_desktop": {
           "label": "Desktop menu type",

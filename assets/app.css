@@ -611,6 +611,14 @@ video {
   margin-right: -1px;
 }
 
+.twcss-ml-2 {
+  margin-left: 0.5rem;
+}
+
+.twcss-ml-1 {
+  margin-left: 0.25rem;
+}
+
 .twcss-box-border {
   box-sizing: border-box;
 }
@@ -699,12 +707,20 @@ video {
   align-items: flex-end;
 }
 
+.twcss-items-center {
+  align-items: center;
+}
+
 .twcss-justify-between {
   justify-content: space-between;
 }
 
 .twcss-gap-\[1px\] {
   gap: 1px;
+}
+
+.twcss-gap-6 {
+  gap: 1.5rem;
 }
 
 .twcss-divide-x > :not([hidden]) ~ :not([hidden]) {
@@ -900,9 +916,22 @@ video {
   text-transform: uppercase;
 }
 
+.twcss-capitalize {
+  text-transform: capitalize;
+}
+
 .twcss-text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.twcss-text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.twcss-underline {
+  text-decoration-line: underline;
 }
 
 .twcss-no-underline {
@@ -954,5 +983,14 @@ video {
 .last\:after\:twcss-border-r:last-child::after {
   content: var(--tw-content);
   border-right-width: 1px;
+}
+
+.hover\:twcss-text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:twcss-underline:hover {
+  text-decoration-line: underline;
 }
 
